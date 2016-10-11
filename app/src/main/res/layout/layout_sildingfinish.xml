@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.uworks.shape_gradient.widgt.SildingFinishView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/silding"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<TextView
+    android:id="@+id/text"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:singleLine="true"
+    android:ellipsize="marquee"
+    android:marqueeRepeatLimit="marquee_forever"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:textSize="30sp"
+    android:background="@drawable/textstyle"
+    android:text="对于View的滑动，存在一些Touch事件消费的处理等问题，因此我们需要对View的整个Touch事件很熟悉 ,最主要的就是Activity里面有一些ListView、 GridView、ScrollView等控件了， 假如我们Activity里面存在ListView、GridView等控件的话，我们对Activity的最外层布局进行滚动根本就无效果，因为Touch事件被ListView、GridView等控件消费了，所以Activity的最外层布局根本得不到Touch事件，也就实现不了Touch逻辑了，所以为了解决此Touch事件问题我提供了setTouchView(View touchView) 方法，这个方法是将Touch事件动态的设置到到View上面，所以针对上面的问题，我们将OnTouchListener直接设置到ListView、GridView上面，这样子就避免了Activity的最外层接受不到Touch事件的问题了"
+    />
+
+</com.example.uworks.shape_gradient.widgt.SildingFinishView>
